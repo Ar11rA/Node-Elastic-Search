@@ -35,6 +35,6 @@ const searchSkill = async (skill) => {
 // resolve this function to see output
 const main = async () => {
   await insertUsers();
-  const result = await searchSkill('java');
+  const result = await searchSkill('devops');
   console.log(result);
 };
